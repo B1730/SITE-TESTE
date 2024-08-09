@@ -1,0 +1,17 @@
+Ideias para o site:
+
+Fazer com que ele interaja com o dia (Horario)
+
+Fazer com oque ele fique mais dinâmico 
+
+Fazer com oque o usuário coloque seu nome 
+
+Fazer com que dê pra passar algumas imagens só com um clique
+
+Mudar as cores
+
+Achar um tema 
+
+E realmente aprender JS
+
+Como a musica pode te fazer relaxar 

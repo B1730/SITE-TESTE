@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+:root{
+
+    --cor00:#847c82;
+    --cor01:#6f6897;
+    --cor02:#a09eb2;
+    --cor03:#464264;
+    --cor04:#0a072c70;
+
+    --fonte-padrao: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    --font-destaque: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body{
+    
+    font-family: var(--fonte-padrao) ;
+    font-size: medium;
+    background-color: #af619b;
+     background-image: url(../foto/foto-universo-roxo.jpg) ;
+
+}
+
+body p{
+
+    font-size: 0.2;
+    margin: auto;
+    padding: 2px 2px 6px 2px;
+    text-align: justify;
+    text-indent: 30px;
+    text-shadow: black;
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    text-align: center;
+    margin: auto ;
+    padding: 40px 20px 20px 20px;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor03));
+    color: rgba(255, 255, 255, 0.347);
+
+    
+
+}
+nav{
+
+    background-color: var(--cor03);
+
+}
+
+
+nav a {
+
+    color: rgba(255, 255, 255, 0.347);
+    text-shadow: none;
+    font: normal 15px var(--fonte-padrao);
+    box-shadow: none;
+    text-decoration: none;
+
+}
+
+#menu a:hover{
+
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px 2px 1px 2px; 
+    background-color: var(--cor02);
+    box-shadow: var(--cor04);
+
+}
+
+
+main{
+
+    background-color: #6220515b;
+    color: rgba(255, 255, 255, 0.422);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+article{
+
+   text-align: justify;
+   padding: 25px;
+
+}
+
+main img.foto{
+
+    max-width: 500px ; 
+    display: block;
+    margin: auto;
+
+}
+
+main .para4{
+
+    background-color: var(--cor04);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: solid;
+    padding: 25px;
+    min-width: 300px;
+    max-width: 500px;
+
+
+}
+
+
+
+ footer {
+    
+    background-color: rgba(229, 221, 221, 0.423);
+    text-align: center;
+    object-position:bottom ;
+    color: rgb(219, 187, 187);
+    text-decoration: none;
+    text-shadow: none;
+    
+    
+  
+}
+
+
+#melhore p{
+
+    padding: 10px;
+
+}
+
+#melhore h2{
+
+    padding: 10px;
+    font: normal 16pt var(--fonte-padrao);
+
+}
+
+#melhore a{
+
+    text-decoration: none;
+    color: var(--cor02);
+
+}
+
+#melhore p > a:hover{
+
+    color: black;
+    background-color: var(--cor02);
+    border-radius: 5px;
+
+}
+
+
+main p:hover { /*Ta pegando em todos as abas*/
+color: white;
+text-decoration: dashed;
+
+}
+
+.videosh2{
+
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+
+.main-video-content {
+    width: 95%;
+    margin-bottom: 20px;
+    object-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px 40px 20px 20px; 
+    justify-content: center
+   
+}
+
+.main-video-content video {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
+}
+
+.main-video-info {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.playlist {
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px 10px 160px;
+}
+
+.playlist-videos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color:  rgba(255, 255, 255, 0.422);
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.playlist-videos.active {
+    background-color: #e0e0e0;
+}
+
+.playlist-videos video {
+    width: 120px;
+    height: auto;
+}
+
+.playlist-video-info {
+    font-size: 1em;
+}
+
+.contatoh2{
+
+text-align: center;
+font: normal 20pt var(--fonte-padrao);
+padding: 20px;
+
+}
+
+#contatofinal a{
+
+   text-decoration: none;
+    color: black; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.364);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    object-position: center;
+    margin: 50px;
+    
+    
+   
+    
+    }
+#maincontato{
+
+
+    background-color: var(--cor04);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: solid;
+    padding: 25px;
+    max-width: 800px;
+
+}
+
